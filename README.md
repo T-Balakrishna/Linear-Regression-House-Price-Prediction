@@ -29,9 +29,6 @@ Contains structured features like:
 5. Model evaluation (MSE, R² Score)  
 6. Visualization of predictions vs. actual values  
 
-## 📸 Sample Output
-![House Price Prediction Graph](https://github.com/user-attachments/assets/house-price-graph-example.png)
-
 ## 📈 Results
 - Achieved high prediction accuracy on test data  
 - Model effectively captured linear relationships among features  
