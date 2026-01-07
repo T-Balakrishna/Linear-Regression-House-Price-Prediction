@@ -1,43 +1,63 @@
-# 🏠 Linear Regression — House Price Prediction
+# House Price Prediction using Linear Regression
 
-## 📘 Overview
-This project implements a **Linear Regression model** to predict housing prices based on features such as square footage, number of bedrooms, and number of bathrooms. The model applies data preprocessing, feature scaling, and regression techniques to deliver accurate pricing estimates on real-world datasets.
+## Description
 
-## 🧠 Objective
-To build a predictive model that helps estimate house prices efficiently and supports decision-making in the real estate market.
+This project implements a linear regression model to predict house prices based on key property features such as area, number of bedrooms, and number of bathrooms. The focus is on building a clear, interpretable model using standard data science practices.
 
-## 📊 Dataset
-Dataset used: [House Price Prediction Dataset (Kaggle)](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+## Objective
 
-Contains structured features like:
-- Lot area  
-- Year built  
-- Overall quality  
-- Number of bedrooms/bathrooms  
-- Sale price (target)
+To develop a predictive model that estimates housing prices accurately and supports data-driven decision-making in the real estate domain.
 
-## ⚙️ Tech Stack
-- **Python:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn  
-- **IDE:** Jupyter Notebook  
-- **Dataset Source:** Kaggle  
+## Dataset
 
-## 🚀 Workflow
-1. Data loading and cleaning  
-2. Feature correlation analysis  
-3. Train-test split and normalization  
-4. Linear regression model training  
-5. Model evaluation (MSE, R² Score)  
-6. Visualization of predictions vs. actual values  
+Source: Kaggle – House Prices: Advanced Regression Techniques
 
-## 📈 Results
-- Achieved high prediction accuracy on test data  
-- Model effectively captured linear relationships among features  
+The dataset includes structured attributes such as lot area, year built, overall quality, number of rooms, and sale price as the target variable.
 
-## 🧩 Future Improvements
-- Incorporate regularization (Ridge/Lasso)
-- Feature engineering for categorical attributes  
-- Implement model explainability using SHAP values
+## Workflow
 
-## 🧑‍💻 Author
-<strong>Balakrishna T</strong><br>
-💼 [GitHub](https://github.com/T-Balakrishna) • 🌐 [Portfolio](https://balakrishnat.vercel.app) • ✉️ [Email](https://mail.google.com/mail/?view=cm&to=tbalakrishna2005@gmail.com)  
+* Data loading and preprocessing
+* Exploratory data analysis and correlation study
+* Feature scaling and train-test split
+* Linear regression model training
+* Model evaluation using MSE and R² score
+* Visualization of predicted vs actual prices
+
+## How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+2. Install the required dependencies:
+
+   ```bash
+   pip install numpy pandas scikit-learn matplotlib seaborn
+   ```
+3. Download the dataset from Kaggle and place it in the project directory.
+4. Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+5. Open the notebook file and run all cells sequentially to train and evaluate the model.
+
+## Results
+
+The model achieved strong performance on test data and effectively captured linear relationships between features and house prices.
+
+## Tech Stack
+
+* Python (NumPy, Pandas, Scikit-learn)
+* Matplotlib, Seaborn
+* Jupyter Notebook
+* Kaggle Dataset
+
+## Future Enhancements
+
+* Apply regularization techniques such as Ridge and Lasso
+* Improve feature engineering for categorical variables
+* Add model explainability techniques
+
